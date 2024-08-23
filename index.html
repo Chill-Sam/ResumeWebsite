@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jonathan's Website</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="mainSection">
+            <h1>Wel&shy;come</h1>
+            <p>Welcome to the official Jonathan website! I'm excited to share my journey in developing innovative and cool projects with you. This platform will serve as a hub for showcasing my work, where you'll find detailed insights into the various creations I'm passionate about. From cutting-edge drone technology to other fascinating DIY projects, this site is designed to inspire and engage fellow enthusiasts and curious minds alike.</p>
+            <p>As I continue to explore new ideas and push the boundaries of what's possible, I'll be updating this site regularly with the latest developments. I invite you to join me on this adventure, as we delve into the world of technology, creativity, and hands-on innovation. Thank you for visiting, and I hope you enjoy exploring the projects as much as I enjoy creating them!</p>
+        </div>
+        <div class="vl1"></div> 
+
+        <div id="projectListDiv" class="projectListDiv">
+            <div class="buttonDiv"><div class="button1div"><button onclick = "window.location.href='drone.html'" class="button button1"><img onmouseover="showElement(1, 'droneDesc')" onmouseout="showElement(0, 'droneDesc')" class="droneImg" src="assets/drone.jpg" /></button></div></div>
+            <div class="buttonDiv"><div class="button2div"><button class="button button2"><img onmouseover="showElement(1, 'testDesc')" onmouseout="showElement(0, 'testDesc')" src="assets/testing.jpg" class="testImg"/></button></div></div>
+        </div>
+
+        <div class="vl2"></div>
+
+        <div class="rightPanel">
+            <div class="projectDesc">
+                <div id="droneDesc" class="droneDesc">
+                    <h1>Homemade Drone</h1>
+                    <p>This project involves the creation of a custom drone powered by an ESP32 microcontroller, featuring four motors and advanced sensors including the MPU6000, QMC5883L, and DPS310 for precise motion, orientation, and altitude control. The drone is operated remotely through a web-based interface, demonstrating a seamless integration of hardware and software for versatile aerial applications.
+                    </p>
+                </div>
+                <div id="testDesc" class="testDesc">
+                    <h1>Test</h1>
+                    <p>Test blah blah</p>
+                </div>
+            </div>
+            <hr>
+            <div class="aboutMe">
+                <h1>About me</h1>
+                <p>I'm Jonathan Wahrenberg, a student with a strong passion for engineering and mathematics. I love creating new things and am driven by the goal of using my skills to make a positive impact on the world in the future.</p>
+                <ul>
+                    <li><a href="https://github.com/Chill-Sam"> My Github </a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="main.js"></script>
+</html>

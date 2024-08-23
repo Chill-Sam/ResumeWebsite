@@ -1,0 +1,150 @@
+body {
+    background-color: #242729;
+}
+.mainSection {
+    height: 100vh;
+    width: 20%;
+    color: #ffffff;
+    text-align: center;
+}
+.mainSection h1 {
+    font-size: 30px;
+    color: #ffffff;
+    overflow: hidden;
+}
+.mainSection p {
+    font-size: 20px;
+}
+.vl1 {
+    position: absolute;
+    top: 0;
+    left: 22%;
+    height: 100vh;
+    color: #ffffff;
+    border-left: 3px solid;
+}
+.vl2 {
+    position: absolute;
+    top: 0;
+    left: 64%;
+    height: 100vh;
+    color: #ffffff;
+    border-left: 3px solid;
+}
+.projectListDiv {
+    position: absolute;
+    top: 0;
+    left: 23%;
+    top: 1%;
+    bottom: 1%;
+    overflow-y: scroll;
+}
+.button1 {
+    width: 40vw;
+    height: auto;
+    border: none;
+    margin: 5px;
+    opacity: 0.75;
+    background-color: #242729;
+    transition: 0.3s;
+}
+.button1:hover {
+    opacity: 1;
+    transform: scale(1.018);
+}
+.projectListDiv:hover .buttonDiv:not(:hover){
+    transition: 0.4s;
+    opacity: 0.4;
+}
+.testImg{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.button2 {
+    width: 40vw;
+    height: 10vh;
+    border: none;
+    margin: 5px;
+    opacity: 0.75;
+    background-color: #242729;
+    transition: 0.3s;
+}
+.button2:hover {
+    opacity: 1;
+    transform: scale(1.018);
+}
+.droneImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.rightPanel {
+    position: absolute;
+    top: 0;
+    left: 64%;
+    right: 1%;
+    bottom: 0;
+}
+.rightPanel hr {
+    background-color: #ffffff;
+    color: #ffffff;
+    width: 96%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    border-radius: 8px;
+}
+.projectDesc {
+    position: absolute;
+    top: 0;
+    left: 1%;
+    right: 1%;
+    bottom: 50%;
+    overflow: hidden;
+}
+.projectDesc h1 {
+    font-size: 30px;
+}
+.projectDesc p {
+    font-size: 20px;
+}
+.droneDesc {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    right: 1%;
+    bottom: 50vh;
+    color: #ffffff;
+    opacity: 0;
+    transition: 0.5s;
+}
+.droneDesc h1 {
+    text-align: center;
+}
+.testDesc {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    right: 1%;
+    color: #ffffff;
+    opacity: 0;
+    transition: 0.5s;
+}
+.testDesc h1 {
+    text-align: center;
+}
+.aboutMe {
+    color: #ffffff;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    overflow: hidden;
+}
+.aboutMe a:linked {
+    color: #ffffff;
+}
+.aboutMe a:visited {
+    color: #ffffff;
+}
