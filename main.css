@@ -1,11 +1,13 @@
 body {
     background-color: #242729;
+    overflow-y: hidden;
 }
 .mainSection {
     height: 100vh;
     width: 20%;
     color: #ffffff;
     text-align: center;
+    overflow: hidden;
 }
 .mainSection h1 {
     font-size: 30px;

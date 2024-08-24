@@ -1,6 +1,10 @@
 body {
     background-color: #242729;
     color: #ffffff;
+    background-image: url("assets/drone.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .mainDiv {
@@ -21,8 +25,8 @@ body {
 }
 
 .droneHolder img {
-    width: 100vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .mainText {
@@ -34,14 +38,38 @@ body {
     left: 25%;
     right: 25%;
     overflow-y: scroll;
-    overflox-x: hidden;
+    overflow-x: hidden;
 }
 
-.mainText h1 {
+.mainText .homeButton {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: -30px;
+}
+
+.mainText .homeButton a:linked {
+    color: #ffffff;
+}
+
+.mainText .homeButton a:visited {
+    color: #ffffff;
+}
+
+.mainText .Header {
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
 }
 
-.mainText p {
+.mainText .Introduction {
     font-size: 20px;
+    margin: auto 3%;
+}
+
+.mainText .Section1Header {
+    margin: auto 6%
+}
+
+.mainText .Section1Text {
+    margin: auto 3%;
 }
