@@ -5,6 +5,6 @@ This repository contains the source code for a personal resume website built usi
 ## Features
 
 - **Responsive Design**: Adapts to various screen sizes.
-- **Project Showcase**: Highlights your projects with descriptions and links.
-- **Skills & Experience**: Sections dedicated to your professional background.
+- **Project Showcase**: Highlights projects with descriptions and links.
+- **Skills & Experience**: Sections dedicated to my professional background.
 - **Simple & Clean UI**: Focuses on content with a minimalistic design.
