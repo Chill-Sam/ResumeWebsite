@@ -1,6 +1,6 @@
 # Resume Website
 
-This repository contains the source code for a personal resume website built using HTML, CSS, and JavaScript. The website is designed to showcase your projects, skills, and experience in a structured and visually appealing format.
+This repository contains the source code for a personal resume website built using HTML, CSS, and JavaScript. The website is designed to showcase my projects, skills, and experience in a structured and visually appealing format.
 
 ## Features
 
